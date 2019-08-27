@@ -13,6 +13,7 @@ const routes: Routes = [
     canActivate: [AuthGuardService]
   },
   { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardPageModule' },
+  { path: 'css-util', loadChildren: './css-util/css-util.module#CssUtilPageModule' },
 ];
 
 @NgModule({

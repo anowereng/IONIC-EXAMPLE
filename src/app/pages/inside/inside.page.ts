@@ -25,6 +25,10 @@ export class InsidePage implements OnInit {
   logout() {
     this.authService.logout();
   }
+
+  csutil(){
+    this.router.navigate(['css-util'])
+  }
  
   clearToken() {
     // ONLY FOR TESTING!
